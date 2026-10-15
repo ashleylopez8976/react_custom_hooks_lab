@@ -66,3 +66,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#root {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+form {
+  gap: 8px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
