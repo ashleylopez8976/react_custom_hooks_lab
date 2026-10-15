@@ -104,3 +104,20 @@ The application passes all test suites.
 Ensure the application:
 - **Persists user data between refreshes.**
 - **Has a functional custom hook (`useLocalStorage`).**
+
+## Completed Features
+
+- Created a reusable useLocalStorage custom hook.
+- Connected the name and service number fields to local storage.
+- Used useState to initialize each field with its saved value.
+- Used useEffect to save changes when the key or value changes.
+- Added labels and improved form spacing.
+
+## Testing
+
+All six automated tests passed. Manual browser testing confirmed
+that the name and service number remain after refreshing the page.
+
+## Screenshot
+
+![Service form with saved values](screenshots/service-form.png)
